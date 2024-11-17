@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ profissional.nome }}</title>
+  </head>
+  <body>
+    <h1>{{ profissional.nome }}</h1>
+    <p>Categoria: {{ profissional.categoria }}</p>
+    <p>Endereço: {{ profissional.endereco }}</p>
+    <p>Preço Médio: R${{ profissional.preco_medio }}</p>
+    <p>Avaliação: {{ profissional.avaliacao }}</p>
+    <p>{{ profissional.descricao }}</p>
+    <a href="{{ url_for('index') }}">Voltar</a>
+  </body>
+</html>
